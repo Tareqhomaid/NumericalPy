@@ -1,4 +1,4 @@
-# Non linera equations solver 
+# Non linear equations solver 
 ## Caution! this web application is intintionally vulnerable, DO NOT use it in a production server.
 
 ### Introduction
