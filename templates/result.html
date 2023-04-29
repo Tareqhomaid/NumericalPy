@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <!-- https://github.com/Tareqhomaid/NoneLinear-eq-CNM-Calc -->
+    <div class="col-md-4"></div>
+    <div class="col-md-4 col-xl-3">
+        <h1>{{method}} Result</h1>
+        <p>The solution is: {{ result }}</p>
+        {% for xval in x_val %}
+            <p>
+                {{xval}}
+            </p>
+        {% endfor %}
+    </div>
+    <div class="col-md-4"></div>
+</div>
+{% endblock %}
