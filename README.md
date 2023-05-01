@@ -1,4 +1,4 @@
-# Non linear equations solver 
+# NumericalPy 
 ## Caution! this web application is deliberately vulnerable, DO NOT use it in a production server.
 
 ### Introduction
