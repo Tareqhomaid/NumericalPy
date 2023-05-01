@@ -52,7 +52,7 @@ class Solver:
         try:
             a, b = check_sign(f, a, b)
         except TypeError:
-            flash(f"Invalid interval fa={a}, fb = {b} for the function {self.text}")
+            flash(f"Invalid interval fa={f(a)}, fb = {f(b)} for the function {self.text}")
             return ""
         c0 = 0
         while True:
