@@ -31,6 +31,7 @@ def check_sign(f, a, b):
 class Solver:
     def __init__(self, f, a=None, b=None, c=None, d=None, x0=None, p0=None):
         try:
+            self.text = f
             self.f = eval("lambda x:" + f)
         except SyntaxError:
             flash("Syntax Error, Have you tried n*x instead of nx or you missed a ')' ?")
@@ -51,7 +52,7 @@ class Solver:
         try:
             a, b = check_sign(f, a, b)
         except TypeError:
-            flash(f"Invalid interval fa={a}, fb = {b} for the function ")
+            flash(f"Invalid interval fa={a}, fb = {b} for the function {self.text}")
             return ""
         c0 = 0
         while True:
