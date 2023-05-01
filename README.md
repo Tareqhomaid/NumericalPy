@@ -15,4 +15,8 @@ This repository contains Python implementations of some of the popular numerical
 Each method is implemented as a function inside the solver class. 
 The repository also will be updates soon with more details about this webapp, or hacking challenge ;) .
 
-Have a great day
+### TODO
+Add the following:
+- Gaussian Elimination Method
+- Jacobi Method
+- Guass-Seidel Method
