@@ -19,4 +19,4 @@ The repository also will be updated soon with more details about this webapp, or
 Add the following:
 - Gaussian Elimination Method
 - Jacobi Method
-- Guass-Seidel Method
+- Gauss-Seidel Method
