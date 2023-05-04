@@ -13,7 +13,7 @@ This repository contains Python implementations of some of the popular numerical
 - Newton Raphson Method
 
 Each method is implemented as a function inside the solver class. 
-The repository also will be updates soon with more details about this webapp, or hacking challenge ;) .
+The repository also will be updated soon with more details about this webapp, or hacking challenge ;) .
 
 ### TODO
 Add the following:
